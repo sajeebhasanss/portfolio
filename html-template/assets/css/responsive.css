@@ -1,0 +1,80 @@
+@media (max-width: 858px){
+    #toggler{
+        display: block;
+    }
+    nav ul{
+        position: fixed;
+        width: 100%;
+        left: 0;
+        text-align: center;
+        transition: all 1s;
+        background: #000000;
+        padding-top: 50px;
+    }
+    nav ul li{
+        display: block;
+        background: #000000;
+    }
+    nav ul li a{
+        background: #000000;
+    }
+    #tId{
+        margin-left: -858px;
+        height: 100vh;
+    }
+    #topPart .column{
+        width: 100%;
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: center;
+    }
+    #topPart img {
+        margin-left: 0px;
+    }
+    #about .img-col{
+        display: none;
+    }
+    #about .column{
+        width: 100%;
+        padding: 0px 40px;
+        text-align: center;
+    }
+    #contact input,textarea{
+        width: 80%;
+        margin-left: 8%;
+    }
+    #contact .row .column{
+        width: 100%;
+    }
+    #contact .row{
+        text-align: center;
+    }
+    .row2{
+        justify-content: center;
+    }
+    .row2 .col-1{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+@media (max-width: 768px){
+    #services .row .column{
+        width: 50%;
+    }
+}
+@media (max-width: 560px){
+    #services .row .column{
+        text-align: center;
+        width: 100%;
+        padding: 0px 30px;
+        padding-bottom: 20px;
+    }
+    #bottom h3{
+        text-align: center;
+    }
+}
+@media (max-width:480px){
+    #contact .row{
+        padding: 0px 50px;
+    }
+}

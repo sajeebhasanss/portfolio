@@ -1,0 +1,376 @@
+*{
+    background: #000000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #c9c6c6;
+    scroll-behavior: smooth;
+    transition: all 1s;
+}
+/*class*/
+.font-size-high {
+    font-size: 60px;
+}
+.font-size-medium {
+    font-size: 30px;
+}
+.font-size-low{
+    font-size: 20px;
+}
+.text-center{
+    text-align: center;
+}
+.section-header-color {
+    color: #096427;
+}
+.bg-light {
+    background: #ffffff;
+}
+.text-dark{
+    color: #000000;
+}
+/*Navigation bar css*/
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+}
+nav .navbar-brand{
+    display: inline-block;
+}
+.container {
+    padding: 2px 0px;
+    width: 90%;
+    margin: auto;
+}
+nav a{
+    text-decoration: none;
+    color: #c9c6c6;
+}
+nav .navbar-brand a {
+    font-size: 30px;
+}
+nav .navbar-nav {
+    float: right;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0px 30px;
+    line-height: 45px;
+}
+nav .navbar-nav a:hover {
+    color: #8d5353;
+}
+#toggler{
+    color: #c9c6c6;
+    float: right;
+    line-height: 45px;
+    cursor: pointer;
+    display: none;
+}
+#toggler #close{
+    display: none;
+}
+/*Top part css*/
+#topPart .container {
+    width: 90%;
+    margin: auto;
+    padding: 80px 30px;
+}
+#topPart .container .row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#topPart .column{
+    width: 50%;
+    float: left;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#topPart img {
+    height: 400px;
+    margin-left: 30%;
+}
+#topPart button{
+    background: #096427;
+    border: none;
+    padding: 7px 12px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+/*About Section css*/
+#about {
+    padding-top: 40px;
+}
+#about h1 {
+    padding-bottom: 30px;
+}
+#about img {
+    height: 300px;
+    margin-left: 20%;
+}
+#about .row {
+    display: flex;
+}
+#about .column {
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#about h2 {
+    padding: 20px 0px;
+}
+/*Services section css*/
+#services{
+    padding-top: 70px;
+}
+#services .row {
+    padding: 40px 20px ;
+}
+#services .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+#services .row .column{
+    width: 33%;
+    padding: 20px 10px;
+}
+#services .row .column h1{
+    padding: 10px 0px;
+}
+/*skill section css*/
+#skills {
+    padding: 30px 0px;
+    list-style: none;
+}
+#skills .container{
+    padding: 30px 30px;
+}
+#skills h1{
+    padding-bottom: 30px;
+}
+#skills .column{
+    width: 100%;
+}
+#skills li h3 {
+    font-size: 15px;
+}
+#skills li {
+    font-family: sans-serif;
+    margin: 10px 0px;
+    padding-bottom: 20px;
+}
+#skills .bar {
+    background: #353b48;
+    display: block;
+    height: 5px;
+    border: 1px solid #0000004d;
+    border-radius: 3px;
+    margin: 5px 0px;
+    overflow: hidden;
+    width: 100%;
+}
+#skills .parcent{
+    text-align: end;
+    font-size: 15px;
+}
+#skills .bar span{
+    height: 4px;
+    background: #1db9e0;
+    float: left;
+}
+#skills .html {
+    width: 95%;
+    animation: html 2s;
+}
+#skills .css {
+    width: 80%;
+    animation: css 2s;
+}
+#skills .bootstrap {
+    width: 85%;
+    animation: bs 2s;
+}
+#skills .javascript {
+    width: 30%;
+    animation: js 2s;
+}
+#skills .jquery {
+    width: 55%;
+    animation: jq 2s;
+}
+#skills .php {
+    width: 60%;
+    animation: php 2s;
+}
+#skills .laravel {
+    width: 55%;
+    animation: laravel 2s;
+}
+#skills .mysqli {
+    width: 70%;
+    animation: mysqli 2s;
+}
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes bs {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+@keyframes js {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 30%;
+    }
+}
+@keyframes jq {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 55%;
+    }
+}
+@keyframes php {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes laravel {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 55%;
+    }
+}
+@keyframes mysqli {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+/*Contact section css*/
+#contact{
+    padding-top: 30px;
+}
+#contact h1{
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.s-text {
+    padding: 0px 80px;
+}
+#contact p{
+    padding-bottom: 50px;
+}
+#contact .row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 100px;
+}
+#contact .row .column{
+    width: 50%;
+}
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+#contact .details{
+    padding-top: 10%;
+}
+.col-1 span{
+    margin: 0px 15px;
+    font-size: 20px;
+}
+#contact form{
+    background: #ffffff;
+}
+.message{
+    background: #ffffff;
+    padding: 20px 20px;
+}
+#contact input,textarea{
+   display: block;
+   color: black;
+   padding: 4px 4px;
+   font-size: 15px;
+   width: 60%;
+   margin: 40px 0px;
+   border: none;
+   border-bottom: 1px solid #666565;
+   background: #ffffff;
+   font-family: sans-serif;
+}
+
+#contact button {
+    cursor: pointer;
+    padding: 7px 20px;
+    border: none;
+    color: black;
+    background: #50f4fa;
+}
+#contact button:hover{
+    background: #07d6dd;
+}
+/*Bottom section css*/
+#bottom {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    z-index: 999;
+}
+#bottom .lcontainer {
+    width: 70%;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#bottom .lcontainer img{
+    height: 150px; 
+}
+#bottom h3{
+    padding-top: 7px;
+    margin: 20px 0px;
+}
+#bottom span i{
+    padding: 8px 9px;
+    border-radius: 18px ;
+    color: black;
+    background: #5eddf3;
+}
+#bottom a {
+    margin-right: 15px;
+    text-decoration: none;
+}
+#bottom span i:hover{
+    background: #0bb1f3;
+    color: black;
+}
